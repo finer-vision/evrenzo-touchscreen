@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "TradeGothic";
+  src: url("/fonts/TradeGothicLTStd.otf") format("opentype")
+}
+
+:root {
+  --primary-color: #007a33;
+  --secondary-color: #000;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  font-family: TradeGothic;
+}
+
+h1 {
+  @apply font-bold;
+}
+
+.filter-green {
+  filter: brightness(0) saturate(100%) invert(15%) sepia(90%) saturate(6307%) hue-rotate(156deg) brightness(95%) contrast(101%);
+}
+
+.section4-2-img:before {
+  background: url("/images/section4-2-img3.png");
+}
+
+@layer utilities {
+  .bottom-mask::before {
+    content: '';
+    @apply bg-gradient-to-t from-black/70 to-transparent absolute bottom-0 left-0 w-screen h-[400px];
+  }
+
+  .border-bottom-right-cut:before {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 90% 100%, 0% 100%);
+    content: '';
+    z-index: 1;
+    @apply w-full h-full absolute top-0 left-0;
+  }
+
+  .border-bottom-right-cut2:before {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 93% 100%, 0% 100%);
+    content: '';
+    z-index: 1;
+    @apply w-full h-full absolute top-0 left-0;
+  }
+
+
+  .border-bottom-right-cut-sm:before {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 93% 100%, 0% 100%);
+    content: '';
+    z-index: 1;
+    @apply w-full h-full absolute top-0 left-0;
+  }
+}
