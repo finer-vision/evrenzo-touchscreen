@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { useContext, useEffect, useState } from "react"
+import Disclaimer from "../../components/Disclaimer"
 import SlideContext from "../../contexts/SlideContext"
 import useLocalStorage from "../../hooks/useLocalStorage"
 import { AnswerContext, QuestionContext } from "../Pages"
@@ -24,14 +25,7 @@ export default () => {
                 <h1 className="text-5x text-primary">
                     Question {question + 1}
                 </h1>
-                <div className="flex flex-col gap-5 text-1x w-[800px] text-left">
-                    <p>
-                    This information is intended for international audiences.
-                    </p>
-                    <p>
-                    EVRENZO (roxadustat) IS NOT APPROVED FOR USE IN THE UNITED STATES
-                    </p>
-                </div>
+                <Disclaimer/>
             </header>
             <div className="text-2xx text-center w-[1930px] gap-10 h-full -translate-y-40 flex flex-col items-center justify-center">
                 <div>

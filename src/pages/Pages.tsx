@@ -1,6 +1,7 @@
 import { createContext, useState } from "react"
 import { useParams } from "react-router-dom"
 import Navbar from "../components/Navbar/Navbar"
+import Triangle from "../components/Triangle"
 import useLocalStorage from "../hooks/useLocalStorage"
 import Eight from "./Eight/Eight"
 import Eleven from "./Eleven/Eleven"
@@ -39,6 +40,8 @@ export default () => {
                 </AnswerContext.Provider>
             </QuestionContext.Provider>
             {page === "11" && <Eleven/>}
+            {Number(page) > 1 &&
+            <p className="absolute text-2x z-50 bottom-0 left-2/4 -translate-x-2/4 font-bold2"><Triangle/> EVRENZO™ is subject to additional monitoring.</p>}
         </>
     )
 }

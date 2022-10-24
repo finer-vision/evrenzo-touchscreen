@@ -4,6 +4,7 @@ import { AnimateSharedLayout, motion } from "framer-motion"
 import { useContext } from "react"
 import SlideContext from "../../contexts/SlideContext"
 import Box from "./Box"
+import Disclaimer from "../../components/Disclaimer"
 
 export default () => {
     const navigate = useNavigate();
@@ -19,14 +20,7 @@ export default () => {
                 className="text-5x mr-[235px] text-primary font-bold-ext">
                     Overview of <span className="text-green1">EVRENZO</span>
                 </h1>
-                <div className="flex flex-col gap-5 text-1x w-[800px] text-left">
-                    <p>
-                    This information is intended for international audiences.
-                    </p>
-                    <p>
-                    EVRENZO (roxadustat) IS NOT APPROVED FOR USE IN THE UNITED STATES
-                    </p>
-                </div>
+                <Disclaimer/>
             </header>
             <section className="flex flex-col flex-grow items-center gap-20 text-1x">
                 <p className="text-3x w-[1200px] font-bold-ext">Where do you want to explore? Touch a button to find out more</p>

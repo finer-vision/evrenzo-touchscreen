@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { useContext } from "react"
+import Disclaimer from "../../components/Disclaimer";
 import SlideContext from "../../contexts/SlideContext"
 
 export default () => {
@@ -15,14 +16,7 @@ export default () => {
                     <span>On top of their anaemia.</span>
                     <span>At home with their treatment</span>
                 </h1>
-                <div className="flex font-bold2 flex-col gap-5 text-1x w-[800px] text-left">
-                    <p>
-                    This information is intended for international audiences.
-                    </p>
-                    <p>
-                    EVRENZO (roxadustat) IS NOT APPROVED FOR USE IN THE UNITED STATES
-                    </p>
-                </div>
+                <Disclaimer/>
             </header>
             <section className="flex flex-col items-center grow gap-20 text-3x">
                 <div className="flex justify-start items-start w-full mt-20">

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom"
 import { motion } from "framer-motion"
 import { useContext } from "react"
 import SlideContext from "../../contexts/SlideContext"
+import Disclaimer from "../../components/Disclaimer"
 
 export default () => {
     const navigate = useNavigate();
@@ -17,14 +18,7 @@ export default () => {
                 <h1 className="text-5x text-primary">
                 An innovative way of working
                 </h1>
-                <div className="flex font-bold2 flex-col gap-5 text-1x w-[800px] -translate-y-20 text-left">
-                    <p>
-                    This information is intended for international audiences.
-                    </p>
-                    <p>
-                    EVRENZO (roxadustat) IS NOT APPROVED FOR USE IN THE UNITED STATES
-                    </p>
-                </div>
+                <Disclaimer/>
             </header>
             <section className="flex flex-col flex-grow items-center gap-20 text-3x">
                 <div className="flex justify-between w-full">

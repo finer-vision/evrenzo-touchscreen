@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { useContext } from "react"
+import Disclaimer from "../../components/Disclaimer";
 import SlideContext from "../../contexts/SlideContext"
 
 export default () => {
@@ -14,14 +15,7 @@ export default () => {
                 <h1 className="text-5x text-primary w-[1640px]">
                 Reduce their use of IV iron
                 </h1>
-                <div className="flex font-bold2 flex-col gap-5 text-1x w-[800px] text-left">
-                    <p>
-                    This information is intended for international audiences.
-                    </p>
-                    <p>
-                    EVRENZO (roxadustat) IS NOT APPROVED FOR USE IN THE UNITED STATES
-                    </p>
-                </div>
+                <Disclaimer/>
             </header>
             <section className="flex flex-col items-center gap-20 text-3x -mt-20">
                 <div className="flex justify-center items-center w-full">
