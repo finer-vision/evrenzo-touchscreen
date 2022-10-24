@@ -36,7 +36,7 @@ export default () => {
                     className="w-[614px] h-[200px]"
                     src="./images/Logo3.svg" alt="logo" />
             </header>
-            <section className="absolute left-2/4 -translate-x-2/4 top-[43.5%] flex flex-col flex-grow justify-end items-center gap-7 text-1x mb-20">
+            <section className="font-bold2 absolute left-2/4 -translate-x-2/4 top-[43.5%] flex flex-col flex-grow justify-end items-center gap-7 text-1x mb-20">
                 <div className="flex flex-col items-center gap-3">
                 <p className="w-[2000px]">This information is intended for international Healthcare Professionals and was created by Astellas Pharma Inc.</p>
                 <p className="w-[1500px]">EVRENZO (roxadustat) has marketing authorisations in Japan, the European Union (EU)
@@ -63,7 +63,7 @@ Pharmacovigilance.EST-C@astellas.com</p>
                             <p>All trademarks are the property of their respective owners.</p>
                         </div>
                     </div>
-                    <footer className="flex flex-col gap-5 w-[1500px]">
+                    <footer className="flex flex-col gap-5 w-[1500px] font-bold2">
                         <p>
                         In the EU, EVRENZO (roxadustat) is indicated for treatment of adult patients with symptomatic anaemia associated with chronic kidney disease (CKD).2
                         </p>

@@ -14,7 +14,8 @@ module.exports = {
         "pink1": "#AD1AAC",
         "blue1": "#4EC3E0",
         "purple1": "#40146E",
-        "blue2": "#005893"
+        "blue2": "#005893",
+        "black": "#4D4D4F"
       },
       fontSize: {
         "x": "32px",

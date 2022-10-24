@@ -16,7 +16,7 @@ export default () => {
         className="absolute flex flex-col w-full h-full bg-cover bg-fixed bg-center text-black p-48 pb-12 text-center font-bold">
             <header className="flex justify-end text-gray-700">
                 <h1 
-                className="text-5x mr-[430px] text-primary">
+                className="text-5x mr-[235px] text-primary font-bold-ext">
                     Overview of <span className="text-green1">EVRENZO</span>
                 </h1>
                 <div className="flex flex-col gap-5 text-1x w-[800px] text-left">
@@ -29,7 +29,7 @@ export default () => {
                 </div>
             </header>
             <section className="flex flex-col flex-grow items-center gap-20 text-1x">
-                <p className="text-3x w-[1000px]">Where do you want to explore? Touch a button to find out more</p>
+                <p className="text-3x w-[1200px] font-bold-ext">Where do you want to explore? Touch a button to find out more</p>
                 <div className="flex gap-10">
                     <AnimateSharedLayout>
                         <Box 
@@ -64,16 +64,16 @@ export default () => {
                         </Box>
                     </AnimateSharedLayout>
                 </div>
-                <ButtonStart onClick={() => navigate("/10")}>Check your knowledge</ButtonStart>
+                <ButtonStart className="before:bg-primary" onClick={() => navigate("/10")}>Check your knowledge</ButtonStart>
             </section>
-            <footer className="flex justify-between items-center gap-20 text-x text-start relative z-10">
+            <footer className="font-reg flex justify-between items-center gap-20 text-x text-start relative z-10">
                 <ul>
                     <li>1. EVRENZO EU SmPC, September 2022.</li>
                     <li>2. Barratt J et al. Nephrol Dial Transplant. 2021;36(9):1616–1628.</li>
                     <li>3. Barratt J et al. Adv Ther. 2021;38:5345–5360.</li>
                     <li>4. Akizawa T et al. J Am Soc Nephrol. 2020;31(7):1628–1639.</li>
                 </ul>
-                <p className="text-6xl text-gray-700">
+                <p className="text-6xl text-gray-700 font-bold-ext w-[1040px]">
                 Ask an Astellas representative for more information
                 </p>
             </footer>
