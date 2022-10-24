@@ -30,12 +30,12 @@ export default () => {
                 <div className="flex justify-between w-full">
                     <div className="w-3/4 flex flex-col gap-20">
                         <h2>EVRENZO harnesses the HIF pathway, mimicking hypoxia1,2</h2>
-                        <img className="w-full" src="./images/3img1.svg" alt="" />
-                        <p>By reversibly inhibiting HIF-PH, EVRENZO stimulates the increase of endogenous EPO levels, regulation of iron transporter proteins and a reduction of hepcidin1,2</p>
+                        <img className="w-full" src="./images/3img1.png" alt="" />
+                        <p className="w-[1650px]">By reversibly inhibiting HIF-PH, EVRENZO stimulates the increase of endogenous EPO levels, regulation of iron transporter proteins and a reduction of hepcidin1,2</p>
                     </div>
                     <div className="flex flex-col flex-grow">
                         <h2 className="w-9/12 mb-20">EVRENZO promotes a coordinated erythropoietic response1–3</h2>
-                        <img className="translate-x-40 h-[1200px]" src="./images/3img2.svg" alt="" />
+                        <img className="translate-x-40 h-[1200px]" src="./images/3img2.png" alt="" />
                     </div>
                 </div>
             </section>
