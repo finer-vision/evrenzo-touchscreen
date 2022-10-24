@@ -41,7 +41,7 @@ export default () => {
                                 {question === i &&
                                     <div className="relative flex flex-col items-center gap-10">
                                         <h1 className="text-4x w-[1400px]">{questionText}</h1>
-                                        <div className="flex flex-col gap-7">
+                                        <div className="flex flex-col gap-7 font-bold2">
                                             {choices.map(choice => {
                                                 const choiceSelected = choice === answer;
                                                 const choiceCorrect = choice === questionAnswer;
@@ -58,14 +58,14 @@ export default () => {
                                                             }
                                                         }}>{choice}</p>
                                                         { answer !== null && choiceSelected && !choiceCorrect && 
-                                                        <img className="absolute right-0 top-2/4 -translate-y-2/4 mr-5 w-12 aspect-square" src="./images/cross.svg" alt="incorrect"/> }
+                                                        <img className="absolute right-14 top-2/4 -translate-y-2/4 mr-5 w-12 aspect-square" src="./images/cross.svg" alt="incorrect"/> }
                                                         {answer !== null && choiceCorrect &&
-                                                        <img className="absolute right-0 top-2/4 -translate-y-2/4 mr-5 w-12 aspect-square" src="./images/checkmark.svg" alt="correct"/> }
+                                                        <img className="absolute right-14 top-2/4 -translate-y-2/4 mr-5 w-12 aspect-square" src="./images/checkmark.svg" alt="correct"/> }
                                                     </div>
                                                 )
                                             })}
                                         </div>
-                                        <div className="absolute -bottom-40">
+                                        <div className="absolute -bottom-60 text-[88px] font-bold-ext">
                                             {answer !== null && (questionAnswer === answer
                                                 ? <p className="text-[#007A33]">CORRECT</p>
                                                 : <p className="text-red-600">INCORRECT</p>

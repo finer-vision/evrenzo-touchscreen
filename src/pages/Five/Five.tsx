@@ -23,7 +23,7 @@ export default () => {
                     </p>
                 </div>
             </header>
-            <section className="flex flex-colitems-center gap-20 text-3x -mt-20">
+            <section className="flex flex-col items-center gap-20 text-3x -mt-20">
                 <div className="flex justify-center items-center w-full">
                     <div className="w-[1688px] flex flex-col grow gap-10">
                         <h2>Fewer NDD patients on EVRENZO were treated with IV iron than those treated with ESA1</h2>

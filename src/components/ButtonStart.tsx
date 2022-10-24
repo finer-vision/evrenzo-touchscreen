@@ -14,7 +14,7 @@ export default ({onClick, className, children}: React.DetailedHTMLProps<React.Bu
             }}  className="relative text-white">
                 <div className="bg-primary w-[1152px] h-48 -skew-x-[20deg]"></div>
                 <span 
-                className="absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 text-6xl w-full">{children ? children : "Start"}</span>
+                className="font-bold-ext absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 text-7xl w-full">{children ? children : "Start"}</span>
             </button>
         </div>
     )

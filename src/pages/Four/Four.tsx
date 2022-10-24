@@ -23,7 +23,7 @@ export default () => {
                     </p>
                 </div>
             </header>
-            <section className="flex flex-colitems-center gap-20 text-3x">
+            <section className="flex flex-col items-center gap-20 text-3x">
                 <div className="flex justify-center items-center w-full mt-20">
                     <div className="w-[1688px] flex flex-col grow gap-20">
                         <img className="w-full" src="./images/4img1.png" alt="" />

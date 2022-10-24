@@ -24,7 +24,7 @@ to ESA in patients not on dialysis or those just started on dialysis
                     </p>
                 </div>
             </header>
-            <section className="flex flex-colitems-center gap-20 text-3x -mt-10">
+            <section className="flex flex-col items-center gap-20 text-3x -mt-10">
                 <div className="flex justify-center items-center w-full mt-20">
                     <div className="flex flex-col grow">
                         <h2 className="w-[2284px]">

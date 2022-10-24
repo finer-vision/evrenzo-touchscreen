@@ -9,19 +9,47 @@ export default () => {
     const [slideDirection, setSlideDirection] = useContext(SlideContext)
     const navigate = useNavigate()
     const [score, setScore] = useLocalStorage('score', 0)
-
+    
     return (
         <motion.article 
         variants={slideDirection} exit="exit" animate="animate" initial="initial"
         style={{ backgroundImage: `url(./images/bg.png)`}}
-        className="absolute flex flex-col w-full h-full bg-cover bg-fixed bg-center text-black p-48 pb-12">
-            <img src="./images/11.svg" alt="" />
-            <p className="absolute top-[52rem] left-[17rem] text-8xl w-[1600px]">You answered {score} out of 6 questions correctly.</p>
-            <ButtonStart className="absolute bottom-96 left-2/4 -translate-x-2/4"
-            onClick={() => {
-                setSlideDirection(left)
-                navigate("/")
-            }}>End</ButtonStart>
+        className="absolute flex flex-col w-full h-full bg-cover bg-fixed bg-center text-black p-48 pb-0">
+            <header className="flex justify-between text-gray-700">
+                <h1 className="text-5x text-primary w-[1640px]">
+                Knowledge check
+                </h1>
+                <div className="flex font-bold2 flex-col gap-5 text-1x w-[800px] text-left">
+                    <p>
+                    This information is intended for international audiences.
+                    </p>
+                    <p>
+                    EVRENZO (roxadustat) IS NOT APPROVED FOR USE IN THE UNITED STATES
+                    </p>
+                </div>
+            </header>
+            <section className="flex flex-col items-center justify-center gap-20 text-3x grow">
+                <div className="flex justify-center items-center w-full">
+                    <div className="flex flex-col grow gap-10">
+                        <p className="font-bold-ext text-5x w-[1406px] leading-[100px]">
+                            You answered {score} out of 6 questions correctly.
+                        </p>
+                        <p>Thank you for taking part in this knowledge check. </p>
+                    </div>
+                    <div className="max-w-[1612px] flex flex-col grow gap-10">
+                        <img className="mt-20" src="./images/8img2.png" alt="" />
+                    </div>
+                </div>
+                <ButtonStart
+                className="mt-40"
+                onClick={() => {
+                    setSlideDirection(left)
+                    navigate("/")
+                }}>End</ButtonStart>
+            </section>
+            <footer className="flex justify-between items-center gap-20 text-x text-start relative z-10 mt-10">
+                <img className="w-[1048px] mb-20" src="./images/11img1.png" alt="" />
+            </footer>
         </motion.article>
     )
 }
