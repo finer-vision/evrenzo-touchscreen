@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import { useContext } from "react"
 import { useNavigate } from "react-router-dom";
 import ButtonStart from "../../components/ButtonStart";
+import Disclaimer from "../../components/Disclaimer";
 import SlideContext from "../../contexts/SlideContext"
 
 export default () => {
@@ -13,7 +14,12 @@ export default () => {
         variants={slideDirection} exit="exit" animate="animate" initial="initial"
         style={{ backgroundImage: `url(./images/bg.png)`}}
         className="absolute flex items-center flex-col w-full h-full bg-cover bg-fixed bg-center text-black p-48 pb-12">
-            <img className="w-full" src="./images/9header.svg" alt="" />
+            <header className="flex justify-between w-full text-gray-700">
+                <h1 className="text-5x text-primary w-[1640px]">
+                    Knowledge check
+                </h1>
+                <Disclaimer/>
+            </header>
             <div className="text-2xx text-center w-[1930px] gap-20 h-full -translate-y-40 flex flex-col items-center justify-center">
                 <h1 className="text-5x">Are you on top of EVRENZO?</h1>
                 <p>Take part in the EVRENZO knowledge check – a brief series of questions to help you assess your understanding of this innovative treatment.</p>
