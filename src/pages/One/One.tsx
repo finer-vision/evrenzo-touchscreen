@@ -15,7 +15,7 @@ export default () => {
         style={{ backgroundImage: `url(./images/ss.png)`}}
         className="bottom-mask absolute flex flex-col justify-between w-full h-full bg-cover font-bold bg-fixed bg-center text-white p-40 pb-12 text-center">
             <header className="flex justify-between text-gray-700">
-                <div className="flex flex-col text-left gap-14 w-[500px]">
+                <div className="flex flex-col text-left gap-14 w-[444px] font-bold2">
                     <img 
                         className="w-[614px] h-[200px]"
                         src="./images/Logo2.svg" alt="logo" />
@@ -27,8 +27,8 @@ export default () => {
                     </p>
                 </div>
                 <p className="text-4x text-start flex flex-grow ml-40 font-normal">
-                    <span style={{fontFamily: "TradeGothicLTStd-BoldExt"}}
-                    className="w-[1448px]">
+                    <span
+                    className="w-[1448px] font-bold-ext">
                         EVRENZOTM is a first-in-class HIF-PHI1 that harnesses the HIF pathway2,3 to mimic the effects of hypoxia3 as at high altitude
                     </span>
                 </p>
@@ -67,17 +67,27 @@ Pharmacovigilance.EST-C@astellas.com</p>
                         <p>
                         In the EU, EVRENZO (roxadustat) is indicated for treatment of adult patients with symptomatic anaemia associated with chronic kidney disease (CKD).2
                         </p>
-                        <p>
-                        Astellas Pharma B.V., Sylviusweg 62, 2333 BE Leiden.
+                        <p className="flex">
+                            <span>
+                            Astellas Pharma B.V., Sylviusweg 62, 2333 BE Leiden.
 For full prescribing information, please scan the QR code or visit:
 https://www.astellas.com/nl/products
+                            </span>
+                            <img className="h-40" src="./images/qr1.svg" alt="" />
                         </p>
                         <p>
                         Prescribing information may vary. Please refer to your local prescribing information.
                         </p>
-                        <p>
+                        <p className="flex flex-col w-[85%]">
                         MAT-NL-EVZ-2022-00019
-Date of preparation: October 2022    Date of expiry: October 2024
+                            <div className="grid grid-cols-2">
+                                <span>
+                                Date of preparation: October 2022 
+                                </span>
+                                <span>
+                                Date of expiry: October 2024
+                                </span>
+                            </div>
                         </p>
                     </footer>
                 </div>

@@ -17,7 +17,7 @@ export default ({children, className, to}: BoxProps) => {
                 navigate(to)
             }}
             className={`relative flex items-center justify-center left-[unset] max-w-[512px] min-h-[720px] border-bottom-right-cut p-16 text-white aspect-square ${className || 'after:bg-white'}`}>
-                <span style={{fontFamily: "TradeGothicLTStd-BoldExt"}}
+                <span
                 className="relative z-50 text-2xx text-start leading-[3.3rem]">
                     {children}
                 </span>

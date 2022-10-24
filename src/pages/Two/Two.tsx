@@ -15,8 +15,9 @@ export default () => {
         style={{ backgroundImage: `url(./images/bg.png)`}}
         className="absolute flex flex-col w-full h-full bg-cover bg-fixed bg-center text-black p-48 pb-12 text-center font-bold">
             <header className="flex justify-end text-gray-700">
-                <h1 className="text-5x mr-[430px]">
-                    Overview of <span className="text-primary">EVRENZO</span>
+                <h1 
+                className="text-5x mr-[430px] text-primary">
+                    Overview of <span className="text-green1">EVRENZO</span>
                 </h1>
                 <div className="flex flex-col gap-5 text-1x w-[800px] text-left">
                     <p>
