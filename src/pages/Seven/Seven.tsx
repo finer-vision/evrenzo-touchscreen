@@ -23,7 +23,7 @@ export default () => {
                     </p>
                 </div>
             </header>
-            <section className="flex flex-colitems-center grow gap-20 text-3x">
+            <section className="flex flex-col items-center grow gap-20 text-3x">
                 <div className="flex justify-center items-center w-full mt-20">
                     <div className="w-[1688px] flex flex-col grow gap-20">
                         <h2>EVRENZO is taken three times a week on non-consecutive days1</h2>
@@ -35,7 +35,6 @@ export default () => {
             <footer className="flex justify-between items-center gap-20 text-x text-start relative z-10 mt-20">
                 <ul>
                     <li>1. EVRENZO EU SmPC, September 2022.</li>
-                    <li>2. Barratt J et al. Nephrol Dial Transplant. 2021;36(9):1616–1628.</li>
                 </ul>
             </footer>
         </motion.article>
