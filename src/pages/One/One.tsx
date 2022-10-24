@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { useContext } from "react"
 import SlideContext from "../../contexts/SlideContext"
 import Triangle from "../../components/Triangle"
+import Superscript from "../../components/Superscript"
 
 export default () => {
     const navigate = useNavigate();
@@ -29,7 +30,7 @@ export default () => {
                 <p className="text-4x text-start flex flex-grow ml-40 font-normal">
                     <span
                     className="w-[1448px] font-bold-ext">
-                        EVRENZOTM is a first-in-class HIF-PHI1 that harnesses the HIF pathway2,3 to mimic the effects of hypoxia3 as at high altitude
+                        EVRENZOTM is a first-in-class HIF-PHI1 that harnesses the HIF pathway<Superscript>2,3</Superscript> to mimic the effects of hypoxia3 as at high altitude
                     </span>
                 </p>
                 <img 
