@@ -13,7 +13,7 @@ export default () => {
         <motion.article 
         variants={slideDirection} exit="exit" animate="animate" initial="initial"
         style={{ backgroundImage: `url(./images/ss.png)`}}
-        className="bottom-mask absolute flex flex-col justify-between w-full h-full bg-cover font-bold bg-fixed bg-center text-white p-48 pb-12 text-center">
+        className="bottom-mask absolute flex flex-col justify-between w-full h-full bg-cover font-bold bg-fixed bg-center text-white p-40 pb-12 text-center">
             <header className="flex justify-between text-gray-700">
                 <div className="flex flex-col text-left gap-14 w-[500px]">
                     <img 
