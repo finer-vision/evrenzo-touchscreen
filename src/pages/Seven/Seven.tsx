@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { useContext } from "react"
 import Disclaimer from "../../components/Disclaimer";
+import Superscript from "../../components/Superscript";
 import SlideContext from "../../contexts/SlideContext"
 
 export default () => {
@@ -20,9 +21,9 @@ export default () => {
             <section className="flex flex-col items-center grow gap-20 text-3x">
                 <div className="flex justify-center items-center w-full mt-20">
                     <div className="w-[1688px] flex flex-col grow gap-20">
-                        <h2>EVRENZO is taken three times a week on non-consecutive days1</h2>
+                        <h2>EVRENZO is taken three times a week on non-consecutive days<Superscript>1</Superscript></h2>
                         <img className="w-[2177px]" src="./images/7img1.png" alt="" />
-                        <p className="w-[2148px]">Three times weekly dosing reduces the pill burden compared to daily administration, and gives patients 4 treatment-free days every week.1</p>
+                        <p className="w-[2148px]">Three times weekly dosing reduces the pill burden compared to daily administration, and gives patients 4 treatment-free days every week.<Superscript>1</Superscript></p>
                     </div>
                 </div>
             </section>

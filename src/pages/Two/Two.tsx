@@ -5,6 +5,7 @@ import { useContext } from "react"
 import SlideContext from "../../contexts/SlideContext"
 import Box from "./Box"
 import Disclaimer from "../../components/Disclaimer"
+import Superscript from "../../components/Superscript"
 
 export default () => {
     const navigate = useNavigate();
@@ -39,7 +40,7 @@ export default () => {
                         <Box 
                         className="before:bg-pink1"
                         to="/5">
-                            Less use of IV iron compared with ESA1–3
+                            Less use of IV iron compared with ESA<Superscript>1-3</Superscript>
                         </Box>
                         <Box 
                         className="before:bg-blue1"

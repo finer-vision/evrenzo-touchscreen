@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { useContext } from "react"
 import SlideContext from "../../contexts/SlideContext"
 import Disclaimer from "../../components/Disclaimer"
+import Superscript from "../../components/Superscript"
 
 export default () => {
     const navigate = useNavigate();
@@ -23,9 +24,9 @@ export default () => {
             <section className="flex flex-col flex-grow items-center gap-20 text-3x">
                 <div className="flex justify-between w-full">
                     <div className="w-3/4 flex flex-col gap-20">
-                        <h2>EVRENZO harnesses the HIF pathway, mimicking hypoxia1,2</h2>
+                        <h2>EVRENZO harnesses the HIF pathway, mimicking hypoxia<Superscript>1,2</Superscript></h2>
                         <img className="w-full" src="./images/3img1.png" alt="" />
-                        <p className="w-[1650px]">By reversibly inhibiting HIF-PH, EVRENZO stimulates the increase of endogenous EPO levels, regulation of iron transporter proteins and a reduction of hepcidin1,2</p>
+                        <p className="w-[1650px]">By reversibly inhibiting HIF-PH, EVRENZO stimulates the increase of endogenous EPO levels, regulation of iron transporter proteins and a reduction of hepcidin<Superscript>1,2</Superscript></p>
                     </div>
                     <div className="flex flex-col flex-grow">
                         <h2 className="w-9/12 mb-20">EVRENZO promotes a coordinated erythropoietic response1–3</h2>

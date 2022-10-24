@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { useContext } from "react"
 import Disclaimer from "../../components/Disclaimer";
+import Superscript from "../../components/Superscript";
 import SlideContext from "../../contexts/SlideContext"
 
 export default () => {
@@ -20,7 +21,7 @@ export default () => {
             <section className="flex flex-col items-center gap-20 text-3x -mt-20">
                 <div className="flex justify-center items-center w-full">
                     <div className="w-[1688px] flex flex-col grow gap-10">
-                        <h2>Fewer NDD patients on EVRENZO were treated with IV iron than those treated with ESA1</h2>
+                        <h2>Fewer NDD patients on EVRENZO were treated with IV iron than those treated with ESA<Superscript>1</Superscript></h2>
                         <img className="w-full" src="./images/5img1.png" alt="" />
                     </div>
                 </div>

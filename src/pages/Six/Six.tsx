@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { useContext } from "react"
+import Superscript from "../../components/Superscript";
 import SlideContext from "../../contexts/SlideContext"
 
 export default () => {
@@ -29,10 +30,10 @@ to ESA in patients not on dialysis or those just started on dialysis
                     <div className="flex flex-col grow">
                         <h2 className="w-[2284px]">
                         The CV safety profile of EVRENZO was assessed in a meta-analysis of adjudicated
-major adverse cardiovascular events (MACE)1,2
+major adverse cardiovascular events (MACE)<Superscript>1,2</Superscript>
                         </h2>
                         <h2 className="w-[2600px]">
-No evidence of increased risk of major cardiovascular events or ACM with EVRENZO vs. ESA in a pool of patients not on dialysis and those just started on dialysis1,2
+No evidence of increased risk of major cardiovascular events or ACM with EVRENZO vs. ESA in a pool of patients not on dialysis and those just started on dialysis<Superscript>1,3</Superscript>
                         </h2>
                         <img className="w-full" src="./images/6img1.png" alt="" />
                     </div>
