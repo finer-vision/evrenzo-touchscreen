@@ -54,7 +54,7 @@ export default () => {
                         </Box>
                         <Box 
                         className="before:bg-purple1"
-                        to="7">
+                        to="/7">
                             Convenience of three times weekly dosing1,4
                         </Box>
                         <Box 
