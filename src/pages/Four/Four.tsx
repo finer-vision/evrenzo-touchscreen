@@ -34,7 +34,7 @@ export default () => {
             </section>
             <footer className="flex justify-between items-center gap-20 text-x text-start font-semibold relative z-10 mt-20">
                 <ul>
-                    <li>1. EVRENZO EU SmPC, July 2022.</li>
+                    <li>1. EVRENZO EU SmPC, September 2022.</li>
                     <li>2. Barratt J et al. Nephrol Dial Transplant. 2021;36(9):1616–1628.</li>
                 </ul>
             </footer>

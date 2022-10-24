@@ -15,7 +15,7 @@ export default () => {
         className="absolute flex flex-col w-full h-full bg-cover bg-fixed bg-center text-black p-48 pb-12">
             <header className="flex justify-between text-gray-700">
                 <h1 className="text-5x text-primary">
-                A new way of working
+                An innovative way of working
                 </h1>
                 <div className="flex flex-col gap-5 text-1x w-[800px] text-left">
                     <p>
@@ -42,7 +42,7 @@ export default () => {
             <footer className="flex justify-between items-center gap-20 text-x text-start font-semibold relative z-10">
                 <ul>
                     <li>1. Del Vecchio L, Locatelli F. Expert Opin Investig Drugs. 2018;27(1):125–133.</li>
-                    <li>2. EVRENZO EU SmPC, July 2022.</li>
+                    <li>2. EVRENZO EU SmPC, September 2022.</li>
                     <li>3. Koury MJ, Haase VH. Nat Rev Nephrol. 2015;11:394–410.</li>
                 </ul>
             </footer>
