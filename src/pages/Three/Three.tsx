@@ -17,7 +17,7 @@ export default () => {
                 <h1 className="text-5x text-primary">
                 An innovative way of working
                 </h1>
-                <div className="flex flex-col gap-5 text-1x w-[800px] text-left">
+                <div className="flex font-bold2 flex-col gap-5 text-1x w-[800px] -translate-y-20 text-left">
                     <p>
                     This information is intended for international audiences.
                     </p>
@@ -28,18 +28,18 @@ export default () => {
             </header>
             <section className="flex flex-col flex-grow items-center gap-20 text-3x">
                 <div className="flex justify-between w-full">
-                    <div className="w-[1688px] flex flex-col gap-20">
-                        <p>EVRENZO harnesses the HIF pathway, mimicking hypoxia1,2</p>
+                    <div className="w-3/4 flex flex-col gap-20">
+                        <h2>EVRENZO harnesses the HIF pathway, mimicking hypoxia1,2</h2>
                         <img className="w-full" src="./images/3img1.svg" alt="" />
                         <p>By reversibly inhibiting HIF-PH, EVRENZO stimulates the increase of endogenous EPO levels, regulation of iron transporter proteins and a reduction of hepcidin1,2</p>
                     </div>
                     <div className="flex flex-col flex-grow">
-                        <p className="w-9/12">EVRENZO promotes a coordinated erythropoietic response1–3</p>
-                        <img className="h-[1200px]" src="./images/3img2.svg" alt="" />
+                        <h2 className="w-9/12 mb-20">EVRENZO promotes a coordinated erythropoietic response1–3</h2>
+                        <img className="translate-x-40 h-[1200px]" src="./images/3img2.svg" alt="" />
                     </div>
                 </div>
             </section>
-            <footer className="flex justify-between items-center gap-20 text-x text-start font-semibold relative z-10">
+            <footer className="flex font-reg justify-between items-center gap-20 text-x text-start font-semibold relative z-10">
                 <ul>
                     <li>1. Del Vecchio L, Locatelli F. Expert Opin Investig Drugs. 2018;27(1):125–133.</li>
                     <li>2. EVRENZO EU SmPC, September 2022.</li>

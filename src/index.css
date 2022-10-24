@@ -162,7 +162,13 @@
 }
 
 h1 {
-  font-weight: 500;
+  font-family: 'Trade Gothic LT Std Extended';
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Trade Gothic LT Std';
+  font-weight: bold;
 }
 
 .filter-green {
