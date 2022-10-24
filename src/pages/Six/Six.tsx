@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { useContext } from "react"
+import Disclaimer from "../../components/Disclaimer";
 import Superscript from "../../components/Superscript";
 import SlideContext from "../../contexts/SlideContext"
 
@@ -16,14 +17,7 @@ export default () => {
                 Raise Hb without increasing CV risk compared
 to ESA in patients not on dialysis or those just started on dialysis
                 </h1>
-                <div className="flex font-bold2 flex-col gap-5 text-1x w-[800px] text-left">
-                    <p>
-                    This information is intended for international audiences.
-                    </p>
-                    <p>
-                    EVRENZO (roxadustat) IS NOT APPROVED FOR USE IN THE UNITED STATES
-                    </p>
-                </div>
+                <Disclaimer/>
             </header>
             <section className="flex flex-col items-center gap-20 text-3x -mt-16">
                 <div className="flex justify-center items-center w-full mt-20">
