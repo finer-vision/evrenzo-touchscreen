@@ -34,7 +34,7 @@ export default () => {
                     </div>
                 </div>
             </section>
-            <footer className="flex font-reg justify-between items-center gap-20 text-x text-start font-semibold relative z-10">
+            <footer className="flex font-reg justify-between items-center gap-20 text-1x text-start font-semibold relative z-10">
                 <ul>
                     <li>1. Del Vecchio L, Locatelli F. Expert Opin Investig Drugs. 2018;27(1):125–133.</li>
                     <li>2. EVRENZO EU SmPC, September 2022.</li>

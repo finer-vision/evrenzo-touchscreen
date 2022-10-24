@@ -24,7 +24,7 @@ export default () => {
                     </div>
                 </div>
             </section>
-            <footer className="flex justify-between items-center gap-20 text-x text-start relative z-10 mt-20">
+            <footer className="flex justify-between items-center gap-20 text-1x text-start relative z-10 mt-20">
                 <ul>
                     <li>1. EVRENZO EU SmPC, September 2022.</li>
                     <li>2. Barratt J et al. Nephrol Dial Transplant. 2021;36(9):1616–1628.</li>

@@ -27,7 +27,7 @@ export default () => {
                     <img className="w-[1450px]" src="./images/8img2.png" alt="" />
                 </div>
             </section>
-            <footer className="flex justify-between items-center gap-20 text-x text-start relative z-10">
+            <footer className="flex justify-between items-center gap-20 text-1x text-start relative z-10">
                 <ul>
                     <li>1. EVRENZO EU SmPC, September 2022.</li>
                     <li>2. Pollock C et al. Kidney International Reports. 2021;6(4):S108.</li>

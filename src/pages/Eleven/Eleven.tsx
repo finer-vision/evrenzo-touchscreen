@@ -41,7 +41,7 @@ export default () => {
                     navigate("/")
                 }}>End</ButtonStart>
             </section>
-            <footer className="flex justify-between items-center gap-20 text-x text-start relative z-10 mt-10">
+            <footer className="flex justify-between items-center gap-20 text-1x text-start relative z-10 mt-10">
                 <img className="w-[1048px] mb-20" src="./images/11img1.png" alt="" />
             </footer>
         </motion.article>

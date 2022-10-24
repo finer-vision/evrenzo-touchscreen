@@ -27,7 +27,7 @@ export default () => {
                     </div>
                 </div>
             </section>
-            <footer className="flex justify-between items-center gap-20 text-x text-start relative z-10 mt-20">
+            <footer className="flex justify-between items-center gap-20 text-1x text-start relative z-10 mt-20">
                 <ul>
                     <li>1. EVRENZO EU SmPC, September 2022.</li>
                 </ul>
