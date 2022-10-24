@@ -5,7 +5,6 @@ import { useContext } from "react"
 import SlideContext from "../../contexts/SlideContext"
 import Triangle from "../../components/Triangle"
 import Superscript from "../../components/Superscript"
-import Disclaimer from "../../components/Disclaimer"
 
 export default () => {
     const navigate = useNavigate();
@@ -17,7 +16,17 @@ export default () => {
         style={{ backgroundImage: `url(./images/ss.png)`}}
         className="bottom-mask absolute flex flex-col justify-between w-full h-full bg-cover font-bold bg-fixed bg-center text-white p-40 pb-12 text-center">
             <header className="flex justify-between text-gray-700">
-                <Disclaimer/>
+                <div className="flex flex-col text-left gap-14 w-[444px] font-bold2">
+                    <img 
+                        className="w-[614px] h-[200px]"
+                        src="./images/Logo2.svg" alt="logo" />
+                    <p className="text-1x">
+                        This information is intended for international audiences.
+                    </p>
+                    <p className="text-2x">
+                        EVRENZO (roxadustat) IS NOT APPROVED FOR USE IN THE UNITED STATES
+                    </p>
+                </div>
                 <p className="text-4x text-start flex flex-grow ml-40 font-normal">
                     <span
                     className="w-[1448px] font-bold-ext">
