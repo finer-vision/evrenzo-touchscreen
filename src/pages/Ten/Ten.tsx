@@ -42,7 +42,7 @@ export default () => {
 
                                                 return (
                                                     <div className="relative">
-                                                        <p className={`${answer === null ? "bg-[#007A33]" : questionAnswer === choice ? "bg-[#007A33]" : answer === choice ? "bg-white text-black" : "bg-[#4D4D4F]"} px-48 py-24 w-[2300px] text-2xx h-[200px] text-white flex items-center justify-center`}
+                                                        <p className={`${answer === null ? "bg-[#007A33]" : questionAnswer === choice ? "bg-[#007A33]" : answer === choice ? "bg-white text-black" : "bg-[#4D4D4F]"} px-48 w-[2300px] text-4x h-[240px] text-white flex items-center justify-center`}
                                                         onClick={() => {
                                                             if(answer === null) {
                                                                 setAnswer(choice);
