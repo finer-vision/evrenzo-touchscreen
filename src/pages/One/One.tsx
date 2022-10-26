@@ -16,7 +16,7 @@ export default () => {
         style={{ backgroundImage: `url(./images/ss.png)`}}
         className="bottom-mask absolute flex flex-col justify-between w-full h-full bg-cover font-bold bg-fixed bg-center text-white p-40 pb-12 text-center">
             <header className="flex justify-between text-gray-700">
-                <div className="flex flex-col text-left gap-14 w-[444px] font-bold2">
+                <div className="flex flex-col text-left gap-15 w-[444px] font-bold2">
                     <img 
                         className="w-[614px] h-[200px]"
                         src="./images/Logo2.svg" alt="logo" />
@@ -37,7 +37,7 @@ export default () => {
                     className="w-[614px] h-[200px]"
                     src="./images/Logo3.svg" alt="logo" />
             </header>
-            <section className="font-bold2 absolute left-2/4 -translate-x-2/4 top-[43.5%] flex flex-col flex-grow justify-end items-center gap-7 text-1x mb-20">
+            <section className="font-bold2 absolute left-2/4 -translate-x-2/4 top-[48.5%] flex flex-col flex-grow justify-end items-center gap-7 text-1x mb-20">
                 <div className="flex flex-col items-center gap-3">
                 <p className="w-[2000px]">This information is intended for international Healthcare Professionals and was created by Astellas Pharma Inc.</p>
                 <p className="w-[1500px]">EVRENZO (roxadustat) has marketing authorisations in Japan, the European Union (EU)
@@ -46,9 +46,9 @@ and the United Kingdom (UK), Turkey, Russia, South Africa, Egypt, UAE and Kuwait
 <p>By clicking “start” you confirm that you are a Healthcare Professional</p>
                 <ButtonStart onClick={() => navigate("/2")}/>
             </section>
-            <footer className="flex flex-col justify-end gap-20 text-1x text-start font-semibold relative z-10">
+            <footer className="flex flex-col justify-end gap-10 text-1x text-start font-semibold relative z-10">
                 <div className="flex justify-between items-end">
-                    <div className="flex flex-col gap-5">
+                    <div className="flex flex-col gap-0">
                         <p><Triangle/> This medication is subject to additional monitoring.</p>
                         <p className="w-[1000px]">For adverse events reporting, please contact
 Pharmacovigilance.EST-C@astellas.com</p>
@@ -64,7 +64,7 @@ Pharmacovigilance.EST-C@astellas.com</p>
                             <p>All trademarks are the property of their respective owners.</p>
                         </div>
                     </div>
-                    <footer className="flex flex-col gap-5 w-[1500px] font-bold2">
+                    <footer className="flex flex-col gap-0 w-[1500px] font-bold2">
                         <p>
                         In the EU, EVRENZO (roxadustat) is indicated for treatment of adult patients with symptomatic anaemia associated with chronic kidney disease (CKD).2
                         </p>

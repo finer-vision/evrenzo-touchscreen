@@ -43,7 +43,7 @@ No evidence of increased risk of major cardiovascular events or ACM with EVRENZO
                 <li>4. Charytan C et al. Kidney Int Rep. 2021;6(7):1829–1839.</li>
                 </ul>
                 <p className="w-[950px] mr-60 -translate-y-5">
-                The general safety profile of EVRENZO was overall comparable to ESA for the majority of safety variables evaluated and is reflective of the studied CKD populations1,3,4
+                The general safety profile of EVRENZO was overall comparable to ESA for the majority of safety variables evaluated and is reflective of the studied CKD populations<Superscript>1,3,4</Superscript>
                 </p>
             </footer>
         </motion.article>
