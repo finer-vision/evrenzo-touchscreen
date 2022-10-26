@@ -34,7 +34,7 @@ export default () => {
                             <>
                                 {question === i &&
                                     <div className="relative flex flex-col items-center gap-10">
-                                        <h1 className="text-4x w-[2200px]">{questionText}</h1>
+                                        <h1 className="text-8xl w-[2300px]">{questionText}</h1>
                                         <div className="flex flex-col gap-7 font-bold2">
                                             {choices.map(choice => {
                                                 const choiceSelected = choice === answer;
