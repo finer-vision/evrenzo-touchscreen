@@ -35,7 +35,7 @@ export default () => {
                         <Box 
                         className="before:bg-green1"
                         to="/4">
-                            EVRENZO helps patients to achieve and maintain their target Hb levels1
+                            EVRENZO helps patients to achieve and maintain their target Hb levels<Superscript className="">1</Superscript>
                         </Box>
                         <Box 
                         className="before:bg-pink1"
@@ -45,17 +45,17 @@ export default () => {
                         <Box 
                         className="before:bg-blue1"
                         to="/6">
-                            Cardiovascular safety and tolerability profiles1
+                            Cardiovascular safety and tolerability profiles<Superscript>1</Superscript>
                         </Box>
                         <Box 
-                        className="before:bg-purple1"
+                        className="before:bg-purple1 w-[547px]"
                         to="/7">
-                            Convenience of three times weekly dosing1,4
+                            Convenience of three times weekly dosing<Superscript>1,4</Superscript>
                         </Box>
                         <Box 
                         className="before:bg-blue2"
                         to="/8">
-                            An oral treatment that’s convenient for patients to take1,4
+                            An oral treatment that’s convenient for patients to take<Superscript>1,4</Superscript>
                         </Box>
                     </AnimateSharedLayout>
                 </div>

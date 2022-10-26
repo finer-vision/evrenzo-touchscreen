@@ -27,20 +27,18 @@ export default () => {
                         <h2>EVRENZO harnesses the HIF pathway, mimicking hypoxia<Superscript>1,2</Superscript></h2>
                         <img className="w-full" src="./images/3img1.png" alt="" />
                         <p className="w-[1650px]">By reversibly inhibiting HIF-PH, EVRENZO stimulates the increase of endogenous EPO levels, regulation of iron transporter proteins and a reduction of hepcidin<Superscript>1,2</Superscript></p>
+                        <ul className="text-2x">
+                            <li>1. Del Vecchio L, Locatelli F. Expert Opin Investig Drugs. 2018;27(1):125–133.</li>
+                            <li>2. EVRENZO EU SmPC, September 2022.</li>
+                            <li>3. Koury MJ, Haase VH. Nat Rev Nephrol. 2015;11:394–410.</li>
+                        </ul>
                     </div>
                     <div className="flex flex-col flex-grow">
-                        <h2 className="w-9/12 mb-20">EVRENZO promotes a coordinated erythropoietic response1–3</h2>
+                        <h2 className="w-9/12 mb-20">EVRENZO promotes a coordinated erythropoietic response<Superscript>1-3</Superscript></h2>
                         <img className="translate-x-40 h-[1200px]" src="./images/3img2.png" alt="" />
                     </div>
                 </div>
             </section>
-            <footer className="flex font-reg justify-between items-center gap-20 text-1x text-start font-semibold relative z-10">
-                <ul>
-                    <li>1. Del Vecchio L, Locatelli F. Expert Opin Investig Drugs. 2018;27(1):125–133.</li>
-                    <li>2. EVRENZO EU SmPC, September 2022.</li>
-                    <li>3. Koury MJ, Haase VH. Nat Rev Nephrol. 2015;11:394–410.</li>
-                </ul>
-            </footer>
         </motion.article>
     )
 }

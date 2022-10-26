@@ -1,3 +1,3 @@
-export default ({children}: React.DetailedHTMLProps<React.HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>) => {
-    return <span className="inline-block text-4xl -translate-y-6">{children}</span>
+export default ({children, className}: React.DetailedHTMLProps<React.HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>) => {
+    return <span className={"inline-block text-4xl -translate-y-5 " + className}>{children}</span>
 }
