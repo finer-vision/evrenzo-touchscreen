@@ -34,7 +34,7 @@ export default () => {
                             <>
                                 {question === i &&
                                     <div className="relative flex flex-col items-center gap-10">
-                                        <h1 className="text-4x w-[1400px]">{questionText}</h1>
+                                        <h1 className="text-4x w-[2200px]">{questionText}</h1>
                                         <div className="flex flex-col gap-7 font-bold2">
                                             {choices.map(choice => {
                                                 const choiceSelected = choice === answer;
@@ -42,7 +42,7 @@ export default () => {
 
                                                 return (
                                                     <div className="relative">
-                                                        <p className={`${answer === null ? "bg-[#007A33]" : questionAnswer === choice ? "bg-[#007A33]" : answer === choice ? "bg-white text-black" : "bg-[#4D4D4F]"} px-48 w-[2000px] h-[200px] text-white flex items-center justify-center`}
+                                                        <p className={`${answer === null ? "bg-[#007A33]" : questionAnswer === choice ? "bg-[#007A33]" : answer === choice ? "bg-white text-black" : "bg-[#4D4D4F]"} px-48 py-24 w-[2300px] text-2xx h-[200px] text-white flex items-center justify-center`}
                                                         onClick={() => {
                                                             if(answer === null) {
                                                                 setAnswer(choice);
@@ -62,7 +62,7 @@ export default () => {
                                         <div className="absolute -bottom-60 text-[88px] font-bold-ext">
                                             {answer !== null && (questionAnswer === answer
                                                 ? <p className="text-[#007A33]">CORRECT</p>
-                                                : <p className="text-red-600">INCORRECT</p>
+                                                : <p className="text-[#007A33]">INCORRECT</p>
                                             )}
                                         </div> 
                                     </div>
